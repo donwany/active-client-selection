@@ -10,7 +10,7 @@ python3 main.py \
 --lr_local 0.1 \
 -B 20 \
 -R 200 \
---data_dir '/home/ts2434/Desktop/active-client-selection/src/datasets/FederatedEMNIST/'
+--data_dir '/home/ts2434/Desktop/active-client-selection/src/datasets/FederatedCifar100/'
 
 python3 main.py \
 --method 'AFL' \
@@ -22,7 +22,7 @@ python3 main.py \
 --lr_local 0.1 \
 -B 20 \
 -R 200 \
---data_dir '/home/ts2434/Desktop/active-client-selection/src/datasets/FederatedEMNIST/'
+--data_dir '/home/ts2434/Desktop/active-client-selection/src/datasets/FederatedCifar100/'
 
 python3 main.py \
 --method 'Cluster1' \
@@ -34,7 +34,7 @@ python3 main.py \
 --lr_local 0.1 \
 -B 20 \
 -R 200 \
---data_dir '/home/ts2434/Desktop/active-client-selection/src/datasets/FederatedEMNIST/'
+--data_dir '/home/ts2434/Desktop/active-client-selection/src/datasets/FederatedCifar100/'
 
 python3 main.py \
 --method 'Cluster2' \
@@ -46,7 +46,7 @@ python3 main.py \
 --lr_local 0.1 \
 -B 20 \
 -R 200 \
---data_dir '/home/ts2434/Desktop/active-client-selection/src/datasets/FederatedEMNIST/'
+--data_dir '/home/ts2434/Desktop/active-client-selection/src/datasets/FederatedCifar100/'
 
 python3 main.py \
 --method 'Pow-d' \
@@ -59,7 +59,7 @@ python3 main.py \
 -B 20 \
 -R 200 \
 -d 6 \
---data_dir '/home/ts2434/Desktop/active-client-selection/src/datasets/FederatedEMNIST/'
+--data_dir '/home/ts2434/Desktop/active-client-selection/src/datasets/FederatedCifar100/'
 
 python3 main.py \
 --method 'DivFL' \
@@ -72,7 +72,7 @@ python3 main.py \
 -B 20 \
 -R 200 \
 --subset_ratio 0.1 \
---data_dir '/home/ts2434/Desktop/active-client-selection/src/datasets/FederatedEMNIST/'
+--data_dir '/home/ts2434/Desktop/active-client-selection/src/datasets/FederatedCifar100/'
 
 python3 main.py \
 --method 'GradNorm' \
@@ -84,4 +84,4 @@ python3 main.py \
 --lr_local 0.1 \
 -B 20 \
 -R 200 \
---data_dir '/home/ts2434/Desktop/active-client-selection/src/datasets/FederatedEMNIST/'
+--data_dir '/home/ts2434/Desktop/active-client-selection/src/datasets/FederatedCifar100/'
